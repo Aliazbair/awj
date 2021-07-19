@@ -40,26 +40,31 @@
 
       /* Carousel base class */
       .carousel {
-        margin-bottom: 4rem;
+        margin-bottom: 7rem;
       }
       /* Since positioning the image, we need to help out the caption */
       .carousel-caption {
-        bottom: 3rem;
+        bottom: 5rem;
         z-index: 10;
       }
 
       /* Declare heights because of positioning of img element */
       .carousel-item {
-        height: 15rem;
+        height: 23rem;
+        font-size:1.2rem;
+        
       }
       .carousel-item > img {
         position: absolute;
         top: 0;
         right: 0;
         min-width: 100%;
-        height: 20rem;
+        height: 30rem;
+        opacity:0.7;
       }
-
+.carousel-caption {
+  color: hsl(165, 3%, 27%);
+}
       #map {
         width: 100%;
         height: 100%;
@@ -72,7 +77,7 @@
     <header>
       <nav class="navbar navbar-expand-md navbar-dark bg-primary fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand text-warning" href="#">اوج المتحدة للتكييف</a>
+          <a class="navbar-brand text-info" href="#">اوج المتحدة للتكييف</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -97,7 +102,7 @@
               <li class="nav-item">
                 <a
                   class="nav-link"
-                  href="projects.html"
+                  href="#"
                   tabindex="-1"
                   aria-disabled="true"
                 >
@@ -126,7 +131,7 @@
       >
         <div class="row py-lg-5">
           <div class="col-lg-6 col-md-8 mx-auto">
-            <h1 class="text-warning">اوج المتحدة للتكييف</h1>
+            <h1 class="text-primary">اوج المتحدة للتكييف</h1>
             <p class="lead">
               من رواد مجال التكييف وخدمة وصيانة الأجهزة ومعدات التكييف، حيث يوجد
               لدينا أفضل تقنيين التكييف والصيانة، كما نمتلك مركبات لتقديم خدمات
@@ -236,40 +241,38 @@
 
       <!-- service box -->
       <div class="album py-5" id="service">
-        <h1 class="text-center text-warning">الخدمات</h1>
+        <h1 class="text-center text-primary">الخدمات</h1>
         <div class="container">
           <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
             <!-- col 1 -->
             <div class="col">
-              <div class="card shadow-sm h-100 text-light" data-aos="fade-left">
+              <div class="card shadow-sm h-100  border-info" data-aos="fade-left">
                 <img
                   src="https://alathelac.com/public/storage/service/DKeNp6hWcpETNTfUAKJjq5UxC3KQDyvsLrmXq1wU.jpeg"
                   class="bd-placeholder-img card-img-top"
                   alt=""
                 />
-                <div class="card-body first">
-                  <h5 class="card-title text-warning">
+                <div class="card-body ">
+                  <h5 class="card-title text-primary">
                     أنظمة التكييف ( VRV ، VRF )
                   </h5>
                   <p class="card-text">
                     نـقـوم بتـصميم وتـوريـد وتركيـب أنـظمة التـكييف VRV،VRF
                   </p>
                 </div>
-                <div class="card-footer first">
-                  <button class="btn btn-sm btn-dark w-100">اطلب الخدمة</button>
-                </div>
+
               </div>
             </div>
             <!-- col 2 -->
             <div class="col">
-              <div class="card shadow-sm h-100 text-light" data-aos="fade-left">
+              <div class="card shadow-sm border-info h-100" data-aos="fade-left">
                 <img
                   src="https://alathelac.com/public/storage/service/w9zXIJx4lE2oERyrh3R1tnyVgal4OopZQDoll99g.jpeg"
                   class="bd-placeholder-img card-img-top"
                   alt=""
                 />
-                <div class="card-body tow">
-                  <h5 class="text-warning card-title">
+                <div class="card-body ">
+                  <h5 class="text-primary card-title">
                     انظمة التكييف المركزى المدمج Package Ac
                   </h5>
                   <p class="card-text">
@@ -277,14 +280,12 @@
                     المختلفة.
                   </p>
                 </div>
-                <div class="card-footer tow">
-                  <button class="btn btn-sm btn-dark w-100">اطلب الخدمة</button>
-                </div>
+      
               </div>
             </div>
             <!-- col 3 -->
             <div class="col">
-              <div class="card shadow-sm h-100 text-light" data-aos="fade-left">
+              <div class="card shadow-sm border-info h-100" data-aos="fade-left">
                 <svg
                   class="bd-placeholder-img card-img-top"
                   width="100%"
@@ -301,21 +302,19 @@
                     صورة مصغرة
                   </text>
                 </svg>
-                <div class="card-body three">
-                  <h5 class="card-title text-warning">
+                <div class="card-body">
+                  <h5 class="card-title text-primary">
                     أنظمة التكييف المخفى Concealed
                   </h5>
                   <p class="card-text">
                     نقوم بتصميم وتوريد وتركيب المكيفات المخفى بقدراتها المختلفة.
                   </p>
                 </div>
-                <div class="card-footer three">
-                  <button class="btn btn-sm btn-dark w-100">اطلب الخدمة</button>
-                </div>
+                
               </div>
             </div>
             <div class="col">
-              <div class="card shadow-sm h-100 text-light" data-aos="fade-left">
+              <div class="card shadow-sm h-100 border-info" data-aos="fade-left">
                 <svg
                   class="bd-placeholder-img card-img-top"
                   width="100%"
@@ -332,21 +331,19 @@
                     صورة مصغرة
                   </text>
                 </svg>
-                <div class="card-body four">
-                  <h5 class="card-title text-warning">
+                <div class="card-body">
+                  <h5 class="card-title text-primary">
                     أنظمة التكييف المخفى Concealed
                   </h5>
                   <p class="card-text">
                     نقوم بتصميم وتوريد وتركيب المكيفات المخفى بقدراتها المختلفة.
                   </p>
                 </div>
-                <div class="card-footer four">
-                  <button class="btn btn-sm btn-dark w-100">اطلب الخدمة</button>
-                </div>
+              
               </div>
             </div>
             <div class="col">
-              <div class="card shadow-sm h-100 text-light" data-aos="fade-left">
+              <div class="card shadow-sm h-100 border-info" data-aos="fade-left">
                 <svg
                   class="bd-placeholder-img card-img-top"
                   width="100%"
@@ -363,21 +360,19 @@
                     صورة مصغرة
                   </text>
                 </svg>
-                <div class="card-body five">
-                  <h5 class="card-title text-warning">
+                <div class="card-body">
+                  <h5 class="card-title text-primary">
                     أنظمة التكييف المخفى Concealed
                   </h5>
                   <p class="card-text">
                     نقوم بتصميم وتوريد وتركيب المكيفات المخفى بقدراتها المختلفة.
                   </p>
                 </div>
-                <div class="card-footer five">
-                  <button class="btn btn-sm btn-dark w-100">اطلب الخدمة</button>
-                </div>
+               
               </div>
             </div>
             <div class="col">
-              <div class="card shadow-sm h-100 text-light" data-aos="fade-left">
+              <div class="card shadow-sm h-100 border-info" data-aos="fade-left">
                 <svg
                   class="bd-placeholder-img card-img-top"
                   width="100%"
@@ -394,30 +389,29 @@
                     صورة مصغرة
                   </text>
                 </svg>
-                <div class="card-body six">
-                  <h5 class="card-title text-warning">
+                <div class="card-body">
+                  <h5 class="card-title text-primary">
                     أنظمة التكييف المخفى Concealed
                   </h5>
                   <p class="card-text">
                     نقوم بتصميم وتوريد وتركيب المكيفات المخفى بقدراتها المختلفة.
                   </p>
                 </div>
-                <div class="card-footer six">
-                  <button class="btn btn-sm btn-dark w-100">اطلب الخدمة</button>
-                </div>
+               
               </div>
             </div>
+           
           </div>
         </div>
       </div>
 
       <!-- ower works  -->
       <!-- about us -->
-      <section class="py-5 text-center container-fluid" data-aos="flip-left">
-        <h2 class="">عن اوج المتحدة للتكييف</h2>
+      <section class="py-5 text-center container-fluid bg-info text-light" data-aos="flip-left">
+        <!-- <h2 class="">عن اوج المتحدة للتكييف</h2> -->
         <div class="row py-lg-5">
           <div class="col-lg-6 col-md-8 mx-auto">
-            <h1 class="text-warning">اوج المتحدة للتكييف</h1>
+            <h1 class="text-primary">اوج المتحدة للتكييف</h1>
             <p class="lead">
               شركة اوج المتحدة للتكييف واحدة من الشركات الرائدة في مجال التكييف
               والتبريد واعمال التهوية، حيث نقوم بتولي مهام كافة المشاريع
@@ -435,7 +429,7 @@
           </div>
         </div>
       </section>
-      <h3 class="text-center text-warning">شركائنا</h3>
+      <h3 class="text-center text-primary pt-5">شركائنا</h3>
       <div
         id="carouselExampleFade"
         class="carousel slide carousel-fade"
@@ -488,7 +482,7 @@
       <!-- Question Accordion -->
       <section id="questions" class="p-5" data-aos="zoom-out-left">
         <div class="container">
-          <h2 class="text-center mb-4 text-warning">اسئلة عامه</h2>
+          <h2 class="text-center mb-4 text-primary">اسئلة عامه</h2>
           <i class="d-flex justify-content-center align-items-center text-muted"
             >مؤسسة اوج المتحدة تكيف وسلامة لأنظمة التكيف والسلامة</i
           >
@@ -603,22 +597,22 @@
               <h4 class="text-center mb-4">تواصل معنا</h4>
               <ul class="list-group list-group-flush laed">
                 <li class="list-group-item">
-                  <span class="fw-bold">العنوان </span><br><i class="text-warning fas fa-map-marker-alt"></i>
+                  <span class="fw-bold">العنوان </span><br><i class="text-primary fas fa-map-marker-alt"></i>
 طريق الملك عبدالعزيز الفرعي، الصحافة، الرياض | فرع الخبر طريق الملك عبدالعزيز، الخبر الشمالية
                 </li>
                 <li class="list-group-item">
                   <span>البريد الاكتروني</span><br>
-                  <i class="fa fa-at text-warning"></i>
+                  <i class="fa fa-at text-primary"></i>
                   info@nefal-ac.com
                 </li>
                 <li class="list-group-item">
                   <span>الهاتف </span><br>
-                  <i class="fa fa-phone-square text-warning"></i>
+                  <i class="fa fa-phone-square text-primary"></i>
                   055-466-5469
                 </li>
                 <li class="list-group-item">
                   <span>اوقات العمل </span><br>
-               <i class="fas fa-clock text-warning"></i>
+               <i class="fas fa-clock text-primary"></i>
                   	
 مفتوح 8 صباحا - 5 مساء من الاحد : الخميس
                 </li>
@@ -633,7 +627,7 @@
     </main>
 
     <!-- footer -->
-    <footer class="p-5 bg-dark text-white text-center position-relative">
+    <footer class="p-5 bg-primary text-white text-center position-relative">
       <div class="container">
         <p class="lead">جميع الحقوق محفوظة لشركة اوج المتحدة للتكييف 2021&copy;</p>
             <div>
