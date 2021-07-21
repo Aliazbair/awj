@@ -68,19 +68,19 @@
 
 .float {
   position: fixed;
-  width: 40px;
-  height: 40px;
+  width: 42px;
+  height: 45px;
   bottom: 40px;
   color: #fff;
   border-radius: 13px;
   text-align: center;
-  font-size: 13px;
+  font-size: 20px;
   box-shadow: 2px 2px 3px #999;
   z-index: 100;
 }
 .float-whats {
   background-color: #25d366;
-  right: 40px;
+  right: 37px;
 }
 .float-phone {
   background-color: #232323;
