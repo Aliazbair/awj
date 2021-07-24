@@ -1,9 +1,35 @@
 /* styels */
 .first {
-  background: #c32031 !important;
+  /* background-color: #0cbaba;
+background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%); */
+/* background-color: #537895;
+background-image: linear-gradient(315deg, #537895 0%, #09203f 74%); */
+
+/* background-color: #485461;
+background-image: linear-gradient(315deg, #485461 0%, #28313b 74%); */
+/* background-color: #738bdc;
+background-image: linear-gradient(315deg, #738bdc 0%, #48c3eb 74%); */
+
+/* background-color: #60dfcd;
+background-image: linear-gradient(315deg, #60dfcd 0%, #1e9afe 74%); */
+
+/* background-color: #007ea7;
+background-image: linear-gradient(315deg, #007ea7 0%, #80ced7 74%); */
+
+background-color: #000000;
+background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
+
+
+
+
+
+
+
 }
 .tow {
-  background: #8d8d8d;
+background-color: #2f4353;
+background-image: linear-gradient(315deg, #2f4353 0%, #d2ccc4 74%);
+
 }
 .three {
   background: #00a1d9;
