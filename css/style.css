@@ -264,7 +264,7 @@
   color: #000;
 }
 #showcase{
-  background-image:url(../img/pure-css-snow-animation.gif);
+  background-image:url(../img/pexels-vlada-karpovich-4449316-min.jpg);
  
   background-size:cover;
   background-position:center;
@@ -276,5 +276,18 @@
   text-align:center;
   padding:0 20px;
 }
+
+.carousel-caption{
+      position: absolute;
+    left: 15%;
+   bottom: 28.25rem;
+    right: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+}
+
+
 
 
