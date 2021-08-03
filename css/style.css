@@ -1,7 +1,7 @@
 
 :root {
   --primary-color: #233a7e;
-  --secondary-color: #56aecd;
+  --secondary-color: #4cc9f0;
 }
 .first {
   background: var(--primary-color);
@@ -186,15 +186,12 @@
 .carousel-caption{
       position: absolute;
     left: 15%;
-   bottom: 9.25rem;
+   bottom: 23.25rem;
     right: 15%;
     padding-top: 1.25rem;
     padding-bottom: 1.25rem;
     color: #fff;
     text-align: center;
-}
-.carousel-item >img{
-  opacity: 0.5;
 }
 
 
