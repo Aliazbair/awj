@@ -1,13 +1,13 @@
 
 :root {
   --primary-color: #233a7e;
-  --secondary-color: #ccc;
+  --secondary-color: hsla(194, 57%, 58%, 0.726);
 }
 .first {
   background: var(--primary-color);
 }
 .tow {
-  background:red;
+  background: var(--secondary-color);
 /* background-color: #2a2a72;
 background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%); */
 
