@@ -52,30 +52,27 @@
 
 <body style="font-family: 'Cairo', sans-serif">
   <!-- header and navbar -->
-  <header>
-    <nav class="navbar navbar-expand-md navbar-dark tow fixed-top">
-      <div class="container-fluid">
-      
-        <a class="navbar-brand text-light" href="#header">
-           <img src="img/android-icon-48x48.png"  alt="">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-          aria-controls="navbarCollapse" aria-expanded="false" aria-label="تبديل التنقل">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav me-auto mb-2 mb-md-0 justify-content-between">
-            <li class="nav-item">
-              <a class="nav-link active "  href="#">
-                الرئيسية </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#whous" > من نحن</a>
-            </li>
-            <li class="nav-item">
+    
+<nav class="navbar navbar-expand-lg fixed-top navbar-dark tow" aria-label="Main navigation">
+  <div class="container-fluid">
+    <!-- <a class="navbar-brand" href="#"> <img src="img/android-icon-72x72.png" alt=""></a> -->
+    <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">
+الرئيسية</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#whous">من نحن</a>
+        </li>
+      <li class="nav-item">
               <a class="nav-link" href="#service"> الخدمات</a>
             </li>
-            <li class="nav-item">
+        <li class="nav-item">
               <a class="nav-link" href="#works" tabindex="-1" aria-disabled="true">
                 مشروعاتنا
               </a>
@@ -84,24 +81,37 @@
               <a class="nav-link" href="#qa" tabindex="-1" aria-disabled="true">
                 أسئلة متكرره FAQ
               </a>
-            </li>
-            <li class="nav-item">
+         <li class="nav-item">
               <a class="nav-link" href="#concatus" tabindex="-1" aria-disabled="true">
                 اتصل بنا
               </a>
             </li>
+      </ul>
+    <img src="img/android-icon-72x72.png" alt="">
+    </div>
+  </div>
+</nav>
 
-          </ul>
-        
-           <!-- <a href="index.html" class="text-light">
-              <img src="https://img.icons8.com/color/48/000000/saudi-arabia.png"/>
-            </a> -->
-        </div>
-      </div>
-    </nav>
-
+<div class="nav-scroller bg-body shadow-sm m-4 ">
+  <nav class="nav nav-underline d-flex align-items-center justify-content-evenly flex-wrap" aria-label="Secondary navigation">
+        <span class="text-danger h1">  0552345655 <i class="bi bi-telephone text-info"></i></span>
+      
+        <a href="https://twitter.com/ac_awj" class="text-decoration-none"
+          target="_blank">
+          <i class="bi bi-twitter  p-1 shrink f1 text-primary"></i aria-hidden="true"></i>
+        </a>
+        <a href="#" class="text-decoration-none"
+          target="_blank">
+          <i class="bi bi-facebook  p-1 shrink f1 text-primary"></i aria-hidden="true"></i>
+        </a>
+        <a href="#" class="text-decoration-none"
+          target="_blank">
+          <i class="bi bi-youtube  p-1 shrink f1 text-danger"></i aria-hidden="true"></i>
+        </a>
     
-  </header>
+  </nav>
+</div>
+
 
   <!-- full screen showcase -->
     <div class="showcase">
@@ -1138,6 +1148,13 @@
     //   zoom: 18,
     // });
     AOS.init();
+    (function () {
+  'use strict'
+
+  document.querySelector('#navbarSideCollapse').addEventListener('click', function () {
+    document.querySelector('.offcanvas-collapse').classList.toggle('open')
+  })
+})()
   </script>
 
 
